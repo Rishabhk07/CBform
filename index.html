@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Blocks Form</title>
+    <style>
+      body { margin: 100px;}
+      p {margin: 30px;}
+      p.address
+      {margin: 0px ;
+      }
+      .sameline{
+        display: inline;
+      }
+      .thodaleft{
+        margin-left: : 20px;
+      }
+      .button{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding: 10px 35px;
+      }
+      .padleft{
+        padding-top: 10px;
+        padding-left: 30px;
+        background-color: transparent;
+      }
+
+
+    </style>
+  </head>
+  <body class="body">
+
+    <span><a href="http://www.codingblocks.com/" ><img src= "./codingblocks.png" alt = "codingblocks logo" class="sameline" /></span></a>
+
+    <p class="sameline"><p align="right" class="address " >Coding Blocks Private Limited</p>
+    <p align="right" class="address ">47, 2nd floor Nishant Kunj</p>
+    <p align="right" class="address ">New Delhi-110034</p></p></span>
+
+    <h3 align="center">Coding Blocks Registeration Form</h3>
+    <hr>
+    <form action = "index.html" method="get" >
+    <p align="left">Name: <input type="text" size="35" name="name" value="" placeholder="enter name"></p>
+    <p align="right" >Father's Name: <input type="text" size="35" name="fatherName" value="" placeholder="enter Father's Name"></p>
+    <p align="left">Contact: <input type="number" size="35" name="contact" value="" placeholder="enter contact"></p>
+    <p align="right">email: <input type="email" size="35" name="email" value="" placeholder="enter email"></p>
+    <p align = "left" >Gender: Male:<input type="radio" name="gender" value="male" > &nbsp;&nbsp;  Female:<input type="radio" name="gender" value="female">
+    <p align="right">College: <input type="text" size="35" name="college" value="" placeholder="enter college name"></p>
+    <p align="left">Year: <input type="text" size="35" name="year" value="" placeholder="enter college year" </p>
+
+    <p align="right">Course <select name="courses" de>
+
+      <option value="Pandora">Pandora</option>
+      <option value="Elixir" selected="selected">Elixir</option>
+      <option value="Crux">Crux</option>
+      <option value="LaunchPad">LaunchPad</option>
+      <option value="Machine">Machine Learning</option>
+
+    </select></p>
+
+    <p align= "left"  >Any Previous Course:
+      <div align="left" class="padleft"><input type="checkbox" name="prevcourse" value="" >Pandora</div>
+      <div align="left" class="padleft"><input type="checkbox" name="prevcourse" value="" >Elixir</div>
+      <div align="left" class="padleft"><input type="checkbox" name="prevcourse" value= "">Crux</div>
+      <div align="left" class="padleft"><input type="checkbox" name="prevcourse" value="" >LaunchPad</div>
+      <div align="left" class="padleft"><input type="checkbox" name="prevcourse" value="" >Machine Learnign</div>
+    </p>
+
+
+    <p align="center"><input type="submit" value="submit" class="button"></p>
+  </body>
+</html>
